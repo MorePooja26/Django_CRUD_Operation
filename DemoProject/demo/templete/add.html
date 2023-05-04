@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student </title>
+</head>
+<body>
+<h1> Add Students</h1>
+<form action="addrecord/" method="post">
+    {%csrf_token %}
+
+    First Name:<input name="first">
+    <br><br>
+    Last Name:<input name="last">
+    <br><br>
+    Contact:<input name="contact">
+    <br><br>
+    Address:<input name="address">
+    <br><br>
+
+    <input type="submit" value="submit">
+</form>
+
+</body>
+</html>
